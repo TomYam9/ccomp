@@ -9,4 +9,5 @@ int main(int argc, char **argv) {
   }
 
   printf(".intel_syntax noprefix\n");
+  printf(".globl main\n");
 }
