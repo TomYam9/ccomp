@@ -7,4 +7,6 @@ int main(int argc, char **argv) {
     fprintf(stderr, "引数の個数が正しくありません\n");
     return 1;
   }
+
+  printf(".intel_syntax noprefix\n");
 }
